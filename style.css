@@ -2,11 +2,10 @@ body{
     background-image: url(bg.png);
     background-size: cover;
 }
-.header{
+header{
     width: 1280px;
     position: fixed;
 }
-/* kode css navigator */
 ul{
     list-style: none;
     background: #f7fcfd;
@@ -29,7 +28,6 @@ ul li a{
 ul a:hover{
     background-color: rgb(231, 238, 244);
 }
-/* Kode CSS Dropdown */
 ul li ul.dropdown{
     background:#f7fcfd;
     position:absolute;
@@ -51,11 +49,11 @@ ul li:hover ul.dropdown{
 .column.side{
     margin: 170px 0px;
     width: 20%;
-    background-color:#f7fcfd;
+    background-color: #f7fcfd;
 }
 .column.middle{
     float: right;
-    margin:170px 0px;
+    margin: 170px 0px;
     width: 76%;
     color: #859599;
     text-align: justify;
